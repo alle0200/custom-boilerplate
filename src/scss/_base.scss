@@ -1,0 +1,97 @@
+body{
+	background-color: $bgcolor;
+}
+
+img
+{
+	max-width: 100%;
+}
+
+.container{
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	align-items: stetch;
+}
+
+.fullwidth
+{
+	// width: 98%;
+	// margin: 1%;
+	// padding: 1%;
+
+	width: calc(100% - $flexboxmargin - $flexboxpadding);
+	margin: $flexboxmargin;
+	padding: $flexboxpadding;
+
+	box-sizing: border-box;
+	flex-wrap: wrap;
+
+	background-color: $flexboxcolor;
+}
+
+.halfwidth
+{
+	// width: 48%;
+	// margin: 1%;
+	// padding: 1%;
+
+	width: calc(50% - $flexboxmargin - $flexboxpadding);
+	margin: $flexboxmargin;
+	padding: $flexboxpadding;
+
+	box-sizing: border-box;
+
+	background-color: $flexboxcolor;
+}
+
+.thirdwidth
+{
+	// width: 31.333333333333333333333333333333333333333333333333333333333333333333%;
+	// margin: 1%;
+	// padding: 1%;
+
+	width: calc(33.333333333333333333333333333333333333333333333333% - $flexboxmargin - $flexboxpadding);
+	margin: $flexboxmargin;
+	padding: $flexboxpadding;
+
+	box-sizing: border-box;
+
+	background-color: $flexboxcolor;
+}
+
+.quarterwidth
+{
+	// width: 23%;
+	// margin: 1%;
+	// padding: 1%;
+
+	width: calc(25% - $flexboxmargin - $flexboxpadding);
+	margin: $flexboxmargin;
+	padding: $flexboxpadding;
+
+	box-sizing: border-box;
+
+	background-color: $flexboxcolor;
+}
+
+.eighthwidth
+{
+	// width: 10.5%;
+	// margin: 1%;
+	// padding: 1%;
+
+	width: calc(12.5% - $flexboxmargin - $flexboxpadding);
+	margin: $flexboxmargin;
+	padding: $flexboxpadding;
+
+	box-sizing: border-box;
+
+	background-color: $flexboxcolor;
+}
