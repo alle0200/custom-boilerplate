@@ -1,0 +1,14 @@
+# humanstxt.org/
+#The humans responsible & technology colophon
+
+# TEAM
+
+# THANKS
+
+	Name: Allie Lew
+	Contributions: Developed the boilerplate
+
+# TECHNOLOGY COLOPHON
+
+	CSS3, HTML5, SCSS, Webpack, Open graph
+	Apache Serve Configs, jQuery, Modernizr, Normalize.css
