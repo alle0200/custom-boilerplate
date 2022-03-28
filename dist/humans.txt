@@ -3,10 +3,12 @@
 
 # TEAM
 
-# THANKS
-
 	Name: Allie Lew
 	Contributions: Developed the boilerplate
+
+# THANKS
+
+	creativemarket.com for the free UX/UI Icons
 
 # TECHNOLOGY COLOPHON
 
